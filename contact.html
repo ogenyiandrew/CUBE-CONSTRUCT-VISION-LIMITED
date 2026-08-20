@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact — [COMPANY NAME]</title>
+  <meta name="description" content="Get in touch with [COMPANY NAME] for premium construction services." />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/navigation.js"></script>
+  <script defer src="js/contact.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo">[COMPANY LOGO]</a>
+      <nav class="primary-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="nav-cta">
+        <a href="contact.html" class="btn btn-ghost">Request a Quote</a>
+        <button class="hamburger" id="hamburger">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow">LET'S BUILD SOMETHING GREAT</span>
+        <h1>Contact Us</h1>
+      </div>
+    </section>
+
+    <section class="contact container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Contact Information</h3>
+          <p><strong>Address:</strong> [OFFICE ADDRESS]</p>
+          <p><strong>Phone:</strong> [PHONE NUMBER]</p>
+          <p><strong>Email:</strong> [EMAIL ADDRESS]</p>
+          <p><strong>Hours:</strong> Mon–Fri, 8:00–17:00</p>
+        </div>
+
+        <div class="contact-form">
+          <h3>Request a Consultation</h3>
+          <form id="contactForm">
+            <label>Full Name<input type="text" name="name" required></label>
+            <label>Email<input type="email" name="email" required></label>
+            <label>Phone<input type="tel" name="phone"></label>
+            <label>Company<input type="text" name="company"></label>
+            <label>Service Required<select name="service"><option>Building Construction</option><option>Engineering</option></select></label>
+            <label>Project Location<input type="text" name="location"></label>
+            <label>Estimated Budget<input type="text" name="budget"></label>
+            <label>Message<textarea name="message" rows="5"></textarea></label>
+            <button class="btn btn-primary">REQUEST A CONSULTATION</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="map-placeholder">
+        <p>Google Maps placeholder</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <h4>[COMPANY NAME]</h4>
+      </div>
+    </div>
+  </footer>
+
+  <a class="whatsapp-float" href="#" aria-label="WhatsApp contact">💬</a>
+
+</body>
+</html>

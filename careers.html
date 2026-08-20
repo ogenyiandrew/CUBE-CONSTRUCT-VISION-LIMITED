@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Careers — [COMPANY NAME]</title>
+  <meta name="description" content="Build your career with us." />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/navigation.js"></script>
+  <script defer src="js/contact.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo">[COMPANY LOGO]</a>
+      <nav class="primary-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="careers.html" class="active">Careers</a></li>
+        </ul>
+      </nav>
+      <div class="nav-cta">
+        <a href="contact.html" class="btn btn-ghost">Request a Quote</a>
+        <button class="hamburger" id="hamburger">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow">BUILD YOUR CAREER WITH US</span>
+        <h1>Join Our Team</h1>
+      </div>
+    </section>
+
+    <section class="careers container">
+      <div class="job-list">
+        <article class="job-card">
+          <h4>Civil Engineer</h4>
+          <p>Location — Full Time — Mid Level</p>
+          <a href="#apply" class="btn btn-outline">Apply</a>
+        </article>
+        <article class="job-card">
+          <h4>Project Manager</h4>
+          <p>Location — Full Time — Senior</p>
+          <a href="#apply" class="btn btn-outline">Apply</a>
+        </article>
+      </div>
+
+      <section id="apply" class="application">
+        <h3>Application</h3>
+        <form id="applicationForm">
+          <label>Full Name<input type="text" name="name" required></label>
+          <label>Email<input type="email" name="email" required></label>
+          <label>Position<select name="position"><option>Civil Engineer</option><option>Project Manager</option></select></label>
+          <label>CV Upload<input type="file" name="cv"></label>
+          <button class="btn btn-primary">Submit Application</button>
+        </form>
+      </section>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <h4>[COMPANY NAME]</h4>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

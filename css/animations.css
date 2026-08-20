@@ -1,0 +1,12 @@
+@keyframes fadeUp{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+.fade-up{animation:fadeUp .6s ease both}
+@keyframes textReveal{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.text-reveal{animation:textReveal .9s ease both}
+/* Hero slow movement */
+@keyframes slowPan{from{transform:translateX(-3%)}to{transform:translateX(3%)}}
+.hero-media img{animation:slowPan 20s linear infinite alternate}
+/* Reduced motion */
+@media (prefers-reduced-motion:reduce){
+  .hero-media img{animation:none}
+  .fade-up,.text-reveal{animation:none}
+}
