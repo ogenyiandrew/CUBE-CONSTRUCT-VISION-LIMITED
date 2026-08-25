@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 72" role="img" aria-labelledby="title desc">
+  <title id="title">CUBE CONSTRUCT VISION LTD</title>
+  <desc id="desc">Cube Construct Vision Limited logo</desc>
+  <rect width="72" height="72" rx="4" fill="#e2b24a"/>
+  <path d="M18 20h36v10H29v12h21v10H29v10H18z" fill="#101820"/>
+  <path d="M39 20h15v10H39zM39 42h15v10H39z" fill="#101820"/>
+  <text x="88" y="31" fill="#fff" font-family="Montserrat, Arial, sans-serif" font-size="18" font-weight="800" letter-spacing="1">CUBE CONSTRUCT</text>
+  <text x="88" y="53" fill="#e2b24a" font-family="Montserrat, Arial, sans-serif" font-size="14" font-weight="600" letter-spacing="2">VISION LTD</text>
+</svg>
