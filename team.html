@@ -4,25 +4,34 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Team — CUBE CONSTRUCT VISION LTD</title>
-  <meta name="description" content="Meet our leadership and expert team." />
+  <meta name="description" content="Meet the leadership and specialists behind CUBE CONSTRUCT VISION LTD." />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
   <script defer src="js/navigation.js"></script>
+  <script defer src="js/main.js"></script>
+  <script defer src="js/animations.js"></script>
 </head>
 <body>
-  <header class="site-header">
+  <header class="site-header" id="siteHeader">
     <div class="container nav-inner">
       <a href="index.html" class="logo"><img src="images/logo.jpg.jpeg" alt="CUBE CONSTRUCT VISION LTD"></a>
-      <nav class="primary-nav">
+      <nav class="primary-nav" id="primaryNav" aria-label="Primary navigation">
         <ul>
           <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="projects.html">Projects</a></li>
           <li><a href="team.html" class="active">Team</a></li>
           <li><a href="careers.html">Careers</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
       <div class="nav-cta">
         <a href="contact.html" class="btn btn-ghost">Request a Quote</a>
-        <button class="hamburger" id="hamburger">☰</button>
+        <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">☰</button>
       </div>
     </div>
   </header>
@@ -36,34 +45,104 @@
     </section>
 
     <section class="team container">
+      <p class="team-intro">Our leadership team combines professional expertise, project discipline, and a hands-on understanding of construction delivery—ensuring every project is executed with clarity, accountability, and quality.</p>
       <div class="team-grid">
         <article class="profile-card">
-          <img src="images/team/ceo.jpg" alt="CEO" loading="lazy" />
-          <h4>Jane Doe</h4>
+          <img src="images/team/md.png" alt="Olalekan Moroluwa-Aro" loading="lazy" />
+          <h4>Olalekan Moroluwa-Aro</h4>
           <p class="role">CEO / Managing Director</p>
-          <p class="bio">Experienced leader with a track record of delivery on large-scale projects.</p>
-          <div class="socials"><a href="#">LinkedIn</a></div>
+          <p class="bio">Drives strategic direction, client partnerships, and delivery excellence across every phase of the company’s growth.</p>
+          <div class="socials"><a href="contact.html">Contact</a></div>
         </article>
 
         <article class="profile-card">
-          <img src="images/team/pm.jpg" alt="Project Manager" loading="lazy" />
-          <h4>John Smith</h4>
-          <p class="role">Head of Projects</p>
-          <p class="bio">Leads multi-disciplinary teams to deliver complex programmes.</p>
-          <div class="socials"><a href="#">LinkedIn</a></div>
+          <img src="images/team/ceo.png" alt="Barr. Akintunde Olutayo-Aro" loading="lazy" />
+          <h4>Barr. Akintunde Olutayo-Aro</h4>
+          <p class="role">Chairman</p>
+          <p class="bio">Provides governance, stakeholder confidence, and long-term strategic oversight to support sustainable business development.</p>
+          <div class="socials"><a href="contact.html">Connect</a></div>
         </article>
 
+        <article class="profile-card">
+          <img src="images/team/ENGINEER.PNG" alt="Agunsoye Olurotimi Johnson" loading="lazy" />
+          <h4>Agunsoye Olurotimi Johnson</h4>
+          <p class="role">Principal Architect</p>
+          <p class="bio">Leads design quality, planning coordination, and architectural standards across residential, commercial, and institutional developments.</p>
+          <div class="socials"><a href="contact.html">Profile</a></div>
+        </article>
+
+        <article class="profile-card">
+          <img src="images/team/ceo.png" alt="Ogunseye Tayo" loading="lazy" />
+          <h4>Ogunseye Tayo</h4>
+          <p class="role">Operations Manager</p>
+          <p class="bio">Coordinates project execution, site performance, and operational delivery to keep projects on schedule and within quality standards.</p>
+          <div class="socials"><a href="contact.html">Profile</a></div>
+        </article>
+
+        <article class="profile-card">
+          <img src="images/team/ceo.png" alt="Iteoluwakiishi Olutayo-Aro" loading="lazy" />
+          <h4>Iteoluwakiishi Olutayo-Aro</h4>
+          <p class="role">Project Architect</p>
+          <p class="bio">Transforms design intent into clear construction documentation while maintaining technical accuracy and buildability.</p>
+          <div class="socials"><a href="contact.html">Profile</a></div>
+        </article>
+
+        <article class="profile-card">
+          <img src="images/team/SAFETY.PNG" alt="Esho Adebisi Oluwatosin" loading="lazy" />
+          <h4>Esho Adebisi Oluwatosin</h4>
+          <p class="role">Safety Manager</p>
+          <p class="bio">Ensures compliance, safe work practices, and proactive risk management across all construction activities and project sites.</p>
+          <div class="socials"><a href="contact.html">Profile</a></div>
+        </article>
+
+        <article class="profile-card">
+          <img src="images/team/IT.PNG" alt="Ogenyi Igoche Andrew" loading="lazy" />
+          <h4>Ogenyi Igoche Andrew</h4>
+          <p class="role">Head of IT & Media</p>
+          <p class="bio">Supports digital systems, communications, and project visibility to strengthen brand presence and internal coordination.</p>
+          <div class="socials"><a href="contact.html">Profile</a></div>
+        </article>
       </div>
     </section>
-
   </main>
 
   <footer class="site-footer">
     <div class="container footer-grid">
       <div class="footer-brand">
-        <h4>cube construct vision ltd</h4>
+        <h4>CUBE CONSTRUCT VISION LTD</h4>
+        <p>We don’t just build structures. We build legacies.</p>
+      </div>
+      <div class="footer-links">
+        <h5>Quick Links</h5>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h5>Contact</h5>
+        <p>[OFFICE ADDRESS]</p>
+        <p>[PHONE NUMBER]</p>
+        <p>[EMAIL ADDRESS]</p>
+      </div>
+      <div class="footer-newsletter">
+        <h5>Newsletter</h5>
+        <form id="newsletterForm">
+          <input type="email" placeholder="Email address" aria-label="Email" required />
+          <button class="btn btn-primary">Subscribe</button>
+        </form>
       </div>
     </div>
+    <div class="footer-legal container">
+      <small>© 2026 CUBE CONSTRUCT VISION LTD. All Rights Reserved. <a href="#">Privacy Policy</a> • <a href="#">Terms & Conditions</a></small>
+    </div>
   </footer>
+
+  <a href="#top" class="back-to-top" aria-label="Back to top">↑</a>
+
+  <script defer src="js/projects.js"></script>
+  <script defer src="js/contact.js"></script>
 </body>
 </html>
